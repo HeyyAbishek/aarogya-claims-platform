@@ -4,8 +4,9 @@ import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
 
 const Login = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  // Pre-filled with demo credentials for portfolio visitors
+  const [email, setEmail] = useState('patient@demo.com');
+  const [password, setPassword] = useState('password123');
   const [error, setError] = useState('');
   const navigate = useNavigate();
   const { patientLogin } = useContext(AuthContext);
@@ -64,7 +65,9 @@ const Login = () => {
         </form>
         
         <div className="mt-4 flex flex-wrap justify-center">
-          <p className="text-center text-sm text-gray-500">Use seeded account: patient@demo.com</p>
+          <p className="text-center text-sm text-gray-500">
+            Use seeded account: <b>patient@demo.com</b> | Password: <b>password123</b>
+          </p>
         </div>
       </div>
     </div>

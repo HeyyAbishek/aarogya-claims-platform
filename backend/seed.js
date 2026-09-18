@@ -7,6 +7,7 @@ const Insurer = require('./models/insurer.models.js');
 
 const seedDB = async () => {
   try {
+    // Reverted this line back to environment variables for security
     await mongoose.connect(process.env.MONGO_URI || process.env.MONGO_URL);
     console.log('Database connected for seeding...');
 
