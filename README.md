@@ -33,8 +33,8 @@ This project was built for the **AarogyaID Technical Assessment**, with a focus 
 
 ## 🚀 Live Deployment & Demo
 
-- **Live Application:** [Insert your deployed frontend URL here]
-- **Demo Video:** [Insert Loom/YouTube link here]
+- **Live Application:** https://aarogya-claims-platform-ten.vercel.app/
+
 
 ---
 
